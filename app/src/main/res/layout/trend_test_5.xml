@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrendTest5Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/butter"
+        android:textSize="30dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/butter"
+            android:layout_marginBottom="60dp"
+            android:text="4-1. 홍보용 SNS의 팔로워수를 선택해주세요"
+            android:textSize="20dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/sns_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/edge_butter"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="100명 미만"
+            android:textSize="20dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/sns_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/edge_butter"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="100명 이상 1000명 미만"
+            android:textSize="20dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/sns_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/edge_butter"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="1000명 이상 5000명 미만"
+            android:textSize="20dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/sns_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/edge_butter"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="5000명 이상"
+            android:textSize="20dp">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

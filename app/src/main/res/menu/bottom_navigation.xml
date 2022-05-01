@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/fragmentHome"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:title="홈"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <!--android:icon="@android:drawable/ic_menu_search"-->
+    <item
+        android:id="@+id/fragmentSupport"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:title="교육/지원"
+        android:icon="@drawable/ic_baseline_people_24"/>
+    <!--android:icon="@android:drawable/ic_menu_camera"-->
+    <item
+        android:id="@+id/fragmentCommunity"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:title="트렌드점수"
+        android:icon="@drawable/ic_baseline_rule_24"/>
+    <!--android:icon="@android:drawable/ic_menu_call"-->
+    <item
+        android:id="@+id/fragmentAlarm"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:title="알림"
+        android:icon="@drawable/ic_baseline_notifications_24"/>
+    <item
+        android:id="@+id/fragmentMypage"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:title="마이페이지"
+        android:icon="@drawable/ic_baseline_person_24"/>
+</menu>

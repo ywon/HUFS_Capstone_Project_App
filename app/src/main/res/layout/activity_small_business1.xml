@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SmallBusiness">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="90dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="소상공인 정책자금 사이트"
+            android:layout_marginBottom="20dp">
+        </Button>
+
+        <Button
+            android:id="@+id/second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="소상공인 특화자금 안내"
+            android:layout_marginBottom="20dp">
+        </Button>
+
+        <Button
+            android:id="@+id/third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사회적 경제기업 전용자금 안내"
+            android:layout_marginBottom="20dp">
+        </Button>
+
+        <Button
+            android:id="@+id/fourth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성장촉진자금 안내"
+            android:layout_marginBottom="20dp">
+        </Button>
+
+        <Button
+            android:id="@+id/fifth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="재도전 특별자금"
+            android:layout_marginBottom="20dp">
+        </Button>
+
+        <Button
+            android:id="@+id/sixth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="혁신형 소상공인 자금"
+            android:layout_marginBottom="20dp">
+        </Button>
+
+        <Button
+            android:id="@+id/seventh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="도시정비 사업구역 자금"
+            android:layout_marginBottom="20dp">
+        </Button>
+
+        <Button
+            android:id="@+id/eighth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="신사업사관학교 연계자금"
+            android:layout_marginBottom="20dp">
+        </Button>
+
+        <Button
+            android:id="@+id/ninth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="스마트설비 도입 자금"
+            android:layout_marginBottom="20dp">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
