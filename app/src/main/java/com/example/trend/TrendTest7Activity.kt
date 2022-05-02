@@ -13,7 +13,7 @@ class TrendTest7Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.trend_test_7)
 
-        val num : Float = (Result.getresult1() + Result.getresult2() + Result.getresult3() + Result.getresult4()).roundToInt() / 1f
+        val num : Float = Result.getresult1() + Result.getresult2() + Result.getresult3() + Result.getresult4()
         val numint = num.toInt()
         result.setText(numint.toString())
 
@@ -21,7 +21,7 @@ class TrendTest7Activity : AppCompatActivity() {
             var dialog = AlertDialog.Builder(this)
 
             dialog.setTitle("Notice")
-            dialog.setMessage("My Page에서 더 많은 정보를 \n 확인할 수 있어요!")
+            dialog.setMessage("My Page에서 더 많은 정보를 \n확인할 수 있어요!")
 
             var dialog_listener = object: DialogInterface.OnClickListener{
                 override fun onClick(dialog: DialogInterface?, which: Int) {
