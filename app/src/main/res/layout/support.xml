@@ -19,7 +19,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:orientation="vertical"
         android:layout_gravity="center"
         android:gravity="center">
@@ -27,83 +27,83 @@
             android:id="@+id/first"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
             android:text="소상공인 정책자금 사이트"
             android:background="@drawable/join_button"
-            android:layout_marginBottom="20dp">
+            android:layout_marginBottom="30dp">
         </Button>
 
         <Button
             android:id="@+id/second"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:text="소상공인 특화자금 안내"
             android:background="@drawable/join_button"
-            android:layout_marginBottom="20dp">
+            android:layout_marginBottom="30dp">
         </Button>
 
         <Button
             android:id="@+id/third"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:text="사회적 경제기업 전용자금 안내"
             android:background="@drawable/join_button"
-            android:layout_marginBottom="20dp">
+            android:layout_marginBottom="30dp">
         </Button>
 
         <Button
             android:id="@+id/fourth"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:text="성장촉진자금 안내"
             android:background="@drawable/join_button"
-            android:layout_marginBottom="20dp">
+            android:layout_marginBottom="30dp">
         </Button>
 
         <Button
             android:id="@+id/fifth"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:text="재도전 특별자금"
             android:background="@drawable/join_button"
-            android:layout_marginBottom="20dp">
+            android:layout_marginBottom="30dp">
         </Button>
 
         <Button
             android:id="@+id/sixth"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:text="혁신형 소상공인 자금"
             android:background="@drawable/join_button"
-            android:layout_marginBottom="20dp">
+            android:layout_marginBottom="30dp">
         </Button>
 
         <Button
             android:id="@+id/seventh"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:text="도시정비 사업구역 자금"
             android:background="@drawable/join_button"
-            android:layout_marginBottom="20dp">
+            android:layout_marginBottom="30dp">
         </Button>
 
         <Button
             android:id="@+id/eighth"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:text="신사업사관학교 연계자금"
@@ -113,8 +113,8 @@
 
         <Button
             android:id="@+id/ninth"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:text="스마트설비 도입 자금"
