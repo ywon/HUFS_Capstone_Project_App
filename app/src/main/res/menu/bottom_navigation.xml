@@ -8,21 +8,18 @@
         android:enabled="true"
         android:title="홈"
         android:icon="@drawable/ic_baseline_home_24"/>
-    <!--android:icon="@android:drawable/ic_menu_search"-->
     <item
         android:id="@+id/fragmentSupport"
         app:showAsAction="always"
         android:enabled="true"
         android:title="교육/지원"
-        android:icon="@drawable/ic_baseline_people_24"/>
-    <!--android:icon="@android:drawable/ic_menu_camera"-->
+        android:icon="@drawable/ic_baseline_border_color_24"/>
     <item
         android:id="@+id/fragmentCommunity"
         app:showAsAction="always"
         android:enabled="true"
         android:title="트렌드점수"
         android:icon="@drawable/ic_baseline_rule_24"/>
-    <!--android:icon="@android:drawable/ic_menu_call"-->
     <item
         android:id="@+id/fragmentAlarm"
         app:showAsAction="always"
