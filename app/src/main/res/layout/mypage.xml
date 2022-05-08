@@ -78,41 +78,62 @@
         android:orientation="vertical"
         android:layout_marginTop="20dp"
         android:layout_marginHorizontal="20dp">
-        <TextView
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/edge_blackdefault"
-            android:gravity="left|center_vertical"
-            android:text="  내 정보">
-        </TextView>
-        <TextView
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/edge_blackdefault"
+                android:gravity="left|center_vertical"
+                android:text=" 내 정보">
+            </Button>
+        </RelativeLayout>
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:id="@+id/mystoreinfoButton"
-            android:background="@drawable/edge_blackdefault"
-            android:gravity="left|center_vertical"
-            android:text="  내 매장 정보">
-        </TextView>
-        <TextView
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/storeinfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/edge_blackdefault"
+                android:gravity="left|center_vertical"
+                android:text=" 내 매장 정보">
+            </Button>
+        </RelativeLayout>
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:id="@+id/noticeButton"
-            android:background="@drawable/edge_blackdefault"
-            android:gravity="left|center_vertical"
-            android:text="  공지사항">
-        </TextView>
-        <TextView
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/noticeButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/edge_blackdefault"
+                android:gravity="left|center_vertical"
+                android:text="  공지사항">
+            </Button>
+        </RelativeLayout>
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:id="@+id/settingsButton"
-            android:background="@drawable/edge_blackdefault"
-            android:gravity="left|center_vertical"
-            android:text="  환경 설정">
-        </TextView>
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/settingButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/edge_blackdefault"
+                android:gravity="left|center_vertical"
+                android:text="  환경 설정">
+            </Button>
+        </RelativeLayout>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -122,14 +143,7 @@
             android:text="  보류">
         </TextView>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="내 정보"
-            android:id="@+id/info">
-        </Button>
+
     </LinearLayout>
 
     <LinearLayout

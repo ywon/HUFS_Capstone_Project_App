@@ -14,6 +14,15 @@
         android:theme="@style/Theme.Trend"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".SettingPage"
+            android:exported="false" />
+        <activity
+            android:name=".NoticePage"
+            android:exported="false" />
+        <activity
+            android:name=".StoreinfoPage"
+            android:exported="false" />
+        <activity
             android:name=".InfoPage"
             android:exported="false" />
         <activity
