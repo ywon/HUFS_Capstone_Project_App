@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Trend"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".TrendResultInfo"
+            android:exported="false" />
+        <activity
             android:name=".SettingPage"
             android:exported="false" />
         <activity

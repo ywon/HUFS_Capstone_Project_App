@@ -7,9 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import kotlinx.android.synthetic.main.mypage.*
 
 class FragmentMypage :  Fragment(R.layout.mypage) {
     private lateinit var logout : Button
+    private lateinit var trend_result_info : Button
     private lateinit var info : Button
     private lateinit var storeinfo : Button
     private lateinit var notice : Button
@@ -27,6 +29,7 @@ class FragmentMypage :  Fragment(R.layout.mypage) {
         super.onViewCreated(view, savedInstanceState)
 
         logout = view.findViewById(R.id.logout)
+        trend_result_info = view.findViewById(R.id.trend_result_info)
         info = view.findViewById(R.id.info)
         storeinfo = view.findViewById(R.id.storeinfo)
         notice = view.findViewById(R.id.noticeButton)
@@ -35,6 +38,10 @@ class FragmentMypage :  Fragment(R.layout.mypage) {
         logout.setOnClickListener(){
             val intentStart = Intent(context, StartPage::class.java)
             startActivity(intentStart)
+        }
+
+        trend_result_info.setOnClickListener(){
+            startActivity(Intent(context, TrendResultInfo::class.java))
         }
 
         info.setOnClickListener(){
