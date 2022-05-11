@@ -6,13 +6,19 @@
     android:orientation="vertical">
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="당신의 트렌드 점수가 궁금하다면?"
+        android:textSize="13dp">
+    </TextView>
+    <TextView
         android:id="@+id/maintext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="소상공인을 위한 앱"
         android:textSize="25dp"
-        android:textStyle="bold"
-        >
+        android:textStyle="bold">
     </TextView>
 
     <ImageView

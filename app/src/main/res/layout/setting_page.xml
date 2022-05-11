@@ -36,19 +36,73 @@
             android:layout_height="wrap_content"
             android:text="알림"
             android:layout_gravity="center_vertical"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"/>
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="40dp">
+            android:layout_marginLeft="290dp">
         </Switch>
-        <ToggleButton
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp">
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textOn="ON"
-            android:textOff="OFF"
-            android:layout_marginLeft="180dp"
-            android:layout_gravity="center_vertical"/>
+            android:text="알림"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="290dp">
+        </Switch>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="알림"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="290dp">
+        </Switch>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="알림"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="290dp">
+        </Switch>
     </LinearLayout>
 </LinearLayout>
