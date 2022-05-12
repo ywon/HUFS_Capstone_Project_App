@@ -24,7 +24,7 @@ class TrendTest3Activity : AppCompatActivity() {
         }
 
         nochange.setOnClickListener(){
-            Result.setresult2(30)
+            Result.setresult2(10)
             nochange.setBackgroundColor(Color.parseColor("#FFF1DD95"))
             startActivity(Intent(this, TrendTest4Activity::class.java))
         }

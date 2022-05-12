@@ -26,17 +26,17 @@ class Login2 : AppCompatActivity() {
         val id : EditText = findViewById<EditText>(R.id.edit_id)
         val pw : EditText = findViewById<EditText>(R.id.edit_pw)
         val pw_check : EditText = findViewById<EditText>(R.id.edit_pw_check)
-        val business_num : EditText = findViewById<EditText>(R.id.edit_business_num)
+        val email : EditText = findViewById<EditText>(R.id.edit_email)
 
         val url: String = "http://10.0.2.2:8080/register.php";
 
         register_check.setOnClickListener(){
             var userID: String = id.text.toString()
             var userPW: String = pw.text.toString()
-            var bs : String = business_num.text.toString()
+            var emailAddress : String = email.text.toString()
             var pwcheck : String = pw_check.text.toString()
             if(userPW==pwcheck){
-                registerVolley(this, url, userID, userPW, bs)
+                registerVolley(this, url, userID, userPW, emailAddress)
             }
             else{
                 dialog("fail")
@@ -45,7 +45,7 @@ class Login2 : AppCompatActivity() {
 
     }
 
-    private fun registerVolley(context: Context, url: String, userid: String, password: String, business : String) {
+    private fun registerVolley(context: Context, url: String, userid: String, password: String, email : String) {
 
         // 1. RequestQueue 생성 및 초기화
         val requestQueue = Volley.newRequestQueue(context)
@@ -64,7 +64,7 @@ class Login2 : AppCompatActivity() {
                 val params: MutableMap<String,String> = HashMap()
                 params["userid"] = userid
                 params["password"] = password
-                params["business"] = business
+                params["email"] = email
                 return params
             }
         }

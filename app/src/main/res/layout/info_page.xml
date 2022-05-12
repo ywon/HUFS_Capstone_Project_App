@@ -44,9 +44,9 @@
                 android:layout_marginLeft="10dp"
                 android:textSize="20dp"/>
             <TextView
+                android:id="@+id/username"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="홍길동"
                 android:textSize="20dp"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
@@ -64,9 +64,9 @@
                 android:layout_marginLeft="10dp"
                 android:textSize="20dp"/>
             <TextView
+                android:id="@+id/emailinfo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="honggildong@naver.com"
                 android:textSize="20dp"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>

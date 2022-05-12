@@ -9,27 +9,24 @@ import android.widget.Toast
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
+import kotlinx.android.synthetic.main.change_storeinfo.*
 import kotlinx.android.synthetic.main.info_page.*
-import kotlinx.android.synthetic.main.info_page.back
-import kotlinx.android.synthetic.main.trend_result_info.*
 import org.json.JSONException
 import org.json.JSONObject
 
-class InfoPage : AppCompatActivity() {
+class ChangeStoreinfo : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.info_page)
+        setContentView(R.layout.change_storeinfo)
 
-        val url: String = "http://10.0.2.2:8080/trendresultTotal.php"
+        val url: String = "http://10.0.2.2:8080/storeInfoChange.php"
 
-        //주석처리
-        //infoVolley(this, url, Result.getid())
-        back.setOnClickListener(){
-            startActivity(Intent(this, MainActivity::class.java))
+        btn_change.setOnClickListener(){
+            //infoVolley(this, url, Result.getid(), edit_storename.text.toString(), edit_category.text.toString(), edit_opendate.text.toString(), edit_sns.text.toString())
         }
-    }
 
-    private fun infoVolley(context: Context, url: String, userid : String ) {
+    }
+    private fun infoVolley(context: Context, url: String, userid : String, storename : String, category : String, opendate : String, sns : String ) {
 
         // 1. RequestQueue 생성 및 초기화
         val requestQueue = Volley.newRequestQueue(context)
@@ -47,6 +44,10 @@ class InfoPage : AppCompatActivity() {
             override fun getParams(): Map<String, String> {
                 val params: MutableMap<String,String> = HashMap()
                 params["userid"] = userid
+                params["s1"] = storename
+                params["s2"] = category
+                params["s3"] = opendate
+                params["s4"] = sns
                 return params
             }
         }
@@ -58,8 +59,7 @@ class InfoPage : AppCompatActivity() {
             Log.e("TAG",response)
             val jsonObject = JSONObject(response)
             if(jsonObject.getString("success")=="true") {
-                username.setText(jsonObject.getString("id"))
-                emailinfo.setText(jsonObject.getString("email"))
+                startActivity(Intent(this, StoreinfoPage::class.java))
             }
 
         } catch (e: JSONException) {

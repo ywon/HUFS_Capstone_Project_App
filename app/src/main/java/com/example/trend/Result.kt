@@ -2,11 +2,17 @@ package com.example.trend
 
 class Result {
     companion object{
+        var id : String = ""
         var period : String = ""
         var result_1 : Int = 0
         var result_2 : Int = 0
         var result_3 : Int = 0
         var result_4 : Float = 0.0F
+        var total_result : Int = 0
+
+        fun setid(a : String){
+            id = a
+        }
 
         fun setperiod(a : String){
             period = a
@@ -28,6 +34,14 @@ class Result {
             result_4 = a
         }
 
+        fun settotalresult( a : Int){
+            total_result = a
+        }
+
+        fun getid() : String{
+            return id
+        }
+
         fun getperiod() : String{
             return period
         }
@@ -46,6 +60,10 @@ class Result {
 
         fun getresult4() : Float{
             return result_4
+        }
+
+        fun gettotalresult() : Int{
+            return total_result
         }
     }
 }
