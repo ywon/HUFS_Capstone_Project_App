@@ -19,7 +19,7 @@ class TrendTest6Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.trend_test_6)
 
-        val url: String = "http://10.0.2.2:8080/trendresultUpload.php";
+        val url: String = "http://211.226.15.97/trendresultUpload.php";
 
         next_5.setOnClickListener(){
             val review : String = edit_review.text.toString()
@@ -28,7 +28,7 @@ class TrendTest6Activity : AppCompatActivity() {
             val numint = num.toInt()
             Result.settotalresult(numint)
             //주석처리
-            //trendVolley(this, url, Result.getid(), Result.getresult1(), Result.getresult2(), Result.getresult3(), Result.getresult4().toInt(), Result.gettotalresult())
+            trendVolley(this, url, Result.getid(), Result.getresult1(), Result.getresult2(), Result.getresult3(), Result.getresult4().toInt(), Result.gettotalresult())
         }
     }
 

@@ -25,7 +25,7 @@ class Login : AppCompatActivity() {
 
         val id : EditText = findViewById<EditText>(R.id.edit_id)
         val pw : EditText = findViewById<EditText>(R.id.edit_pw)
-        val url: String = "http://10.0.2.2:8080/loginn.php"
+        val url: String = "http://211.226.15.97/loginn.php"
 
         btn_register.setOnClickListener(){
             val intent = Intent(this,Login2::class.java)

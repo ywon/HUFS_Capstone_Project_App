@@ -18,10 +18,10 @@ class StoreinfoPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.storeinfo_page)
 
-        val url: String = "http://10.0.2.2:8080/storeInfo.php"
+        val url: String = "http://211.226.15.97/storeInfo.php"
 
         //주석처리
-        //infoVolley(this, url, Result.getid())
+        infoVolley(this, url, Result.getid())
 
         back.setOnClickListener(){
             startActivity(Intent(this, MainActivity::class.java))

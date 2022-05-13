@@ -20,10 +20,10 @@ class InfoPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.info_page)
 
-        val url: String = "http://10.0.2.2:8080/trendresultTotal.php"
+        val url: String = "http://211.226.15.97/trendresultTotal.php"
 
         //주석처리
-        //infoVolley(this, url, Result.getid())
+        infoVolley(this, url, Result.getid())
         back.setOnClickListener(){
             startActivity(Intent(this, MainActivity::class.java))
         }

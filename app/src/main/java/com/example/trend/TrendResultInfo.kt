@@ -19,10 +19,10 @@ class TrendResultInfo : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.trend_result_info)
 
-        val url: String = "http://10.0.2.2:8080/trendresultInfo.php"
+        val url: String = "http://211.226.15.97/trendresultInfo.php"
 
         //주석처리
-        //trendVolley(this, url, Result.getid(), Result.getresult1(), Result.getresult2(), Result.getresult3(), Result.getresult4().toInt(), Result.gettotalresult())
+        trendVolley(this, url, Result.getid(), Result.getresult1(), Result.getresult2(), Result.getresult3(), Result.getresult4().toInt(), Result.gettotalresult())
         back.setOnClickListener(){
             startActivity(Intent(this, MainActivity::class.java))
         }

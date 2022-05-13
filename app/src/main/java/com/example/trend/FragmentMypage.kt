@@ -30,7 +30,7 @@ class FragmentMypage :  Fragment(R.layout.mypage) {
     private lateinit var username : TextView
     private lateinit var email_mypage : TextView
 
-    val url: String = "http://10.0.2.2:8080/trendresultTotal.php";
+    val url: String = "http://211.226.15.97/trendresultTotal.php";
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -54,7 +54,7 @@ class FragmentMypage :  Fragment(R.layout.mypage) {
         email_mypage = view.findViewById(R.id.email_mypage)
 
         //주석처리
-        //trendVolley(requireContext(), url, Result.getid(), Result.gettotalresult())
+        trendVolley(requireContext(), url, Result.getid(), Result.gettotalresult())
 
         logout.setOnClickListener(){
             val intentStart = Intent(context, StartPage::class.java)

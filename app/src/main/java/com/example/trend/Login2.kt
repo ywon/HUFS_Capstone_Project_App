@@ -28,7 +28,7 @@ class Login2 : AppCompatActivity() {
         val pw_check : EditText = findViewById<EditText>(R.id.edit_pw_check)
         val email : EditText = findViewById<EditText>(R.id.edit_email)
 
-        val url: String = "http://10.0.2.2:8080/register.php";
+        val url: String = "http://211.226.15.97/register.php";
 
         register_check.setOnClickListener(){
             var userID: String = id.text.toString()

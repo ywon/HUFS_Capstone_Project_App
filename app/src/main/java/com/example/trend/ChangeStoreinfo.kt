@@ -19,10 +19,10 @@ class ChangeStoreinfo : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.change_storeinfo)
 
-        val url: String = "http://10.0.2.2:8080/storeInfoChange.php"
+        val url: String = "http://211.226.15.97/storeInfoChange.php"
 
         btn_change.setOnClickListener(){
-            //infoVolley(this, url, Result.getid(), edit_storename.text.toString(), edit_category.text.toString(), edit_opendate.text.toString(), edit_sns.text.toString())
+            infoVolley(this, url, Result.getid(), edit_storename.text.toString(), edit_category.text.toString(), edit_opendate.text.toString(), edit_sns.text.toString())
         }
 
     }
