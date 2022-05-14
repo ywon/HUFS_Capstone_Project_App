@@ -53,7 +53,6 @@ class FragmentMypage :  Fragment(R.layout.mypage) {
         username = view.findViewById(R.id.username)
         email_mypage = view.findViewById(R.id.email_mypage)
 
-        //주석처리
         trendVolley(requireContext(), url, Result.getid(), Result.gettotalresult())
 
         logout.setOnClickListener(){

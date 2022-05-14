@@ -21,7 +21,6 @@ class TrendResultInfo : AppCompatActivity() {
 
         val url: String = "http://211.226.15.97/trendresultInfo.php"
 
-        //주석처리
         trendVolley(this, url, Result.getid(), Result.getresult1(), Result.getresult2(), Result.getresult3(), Result.getresult4().toInt(), Result.gettotalresult())
         back.setOnClickListener(){
             startActivity(Intent(this, MainActivity::class.java))
@@ -66,6 +65,7 @@ class TrendResultInfo : AppCompatActivity() {
                 r3.setProgress(jsonObject.getString("result_3").toInt())
                 r4.setProgress(jsonObject.getString("result_4").toInt())
                 result.setText(jsonObject.getString("test_result"))
+
             }
 
         } catch (e: JSONException) {
