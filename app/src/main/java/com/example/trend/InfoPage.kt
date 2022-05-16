@@ -10,7 +10,6 @@ import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import kotlinx.android.synthetic.main.info_page.*
-import kotlinx.android.synthetic.main.info_page.back
 import kotlinx.android.synthetic.main.trend_result_info.*
 import org.json.JSONException
 import org.json.JSONObject
@@ -24,9 +23,9 @@ class InfoPage : AppCompatActivity() {
 
         //주석처리
         infoVolley(this, url, Result.getid())
-        back.setOnClickListener(){
+        /*back.setOnClickListener(){
             startActivity(Intent(this, MainActivity::class.java))
-        }
+        }*/
     }
 
     private fun infoVolley(context: Context, url: String, userid : String ) {

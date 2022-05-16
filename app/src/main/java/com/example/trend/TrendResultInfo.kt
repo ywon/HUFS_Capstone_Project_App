@@ -22,9 +22,9 @@ class TrendResultInfo : AppCompatActivity() {
         val url: String = "http://211.226.15.97/trendresultInfo.php"
 
         trendVolley(this, url, Result.getid(), Result.getresult1(), Result.getresult2(), Result.getresult3(), Result.getresult4().toInt(), Result.gettotalresult())
-        back.setOnClickListener(){
+        /*back.setOnClickListener(){
             startActivity(Intent(this, MainActivity::class.java))
-        }
+        }*/
     }
     private fun trendVolley(context: Context, url: String, userid : String, result_1 :Int, result_2 :Int, result_3 :Int, result_4 :Int, total_result :Int ) {
 

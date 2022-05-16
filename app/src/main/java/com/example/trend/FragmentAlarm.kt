@@ -79,13 +79,14 @@ class FragmentAlarm : Fragment(R.layout.alarm) {
                 Result.settotalresult(jsonObject.getString("test_result").toInt())
 
                 if(Result.gettotalresult()==0){ //총점 0인 경우
-                    t1.setText("내 매장의 트렌드 분석 점수를 알아보세요!")
-                    t2.setText("트렌드 분석 점수를 기반으로\n더 많은 정보를 얻을 수 있습니다.")
-                    t3.setText("통상적으로 3년 안에 초기투자자본 \n\n비용만큼의 수익을 얻는다면,\n\n이는 성공한 사업으로 볼 수 있습니다.")
+                    t1.setText("지금 바로 내 매장의 트렌드 분석 점수를 알아보세요!")
+                    t2.setText("통상적으로 3년 안에 초기투자자본 비용만큼의 수익을 얻는다면,\n\n이는 성공한 사업으로 볼 수 있습니다.")
+                    t3.setText("트렌드 분석 점수를 기반으로 더 많은 정보를 얻을 수 있습니다.")
+                    t4.setText("마이페이지에서 내 매장 정보를 업데이트 할 수 있어요.")
                 }
                 else{
-                    t1.setText("내 매장의 새로운 트렌드 분석 점수는 \n\n몇 점일까요?")
-                    t2.setText("통상적으로 3년 안에 초기투자자본 \n\n비용만큼의 수익을 얻는다면,\n\n이는 성공한 사업으로 볼 수 있습니다.")
+                    t1.setText("내 매장의 새로운 트렌드 분석 점수는 몇 점일까요?\n\n마지막 분석 이후 변화가 있었다면 다시 한 번 검사해보아요!\n\n이전 분석 결과는 마이페이지에서 확인할 수 있어요 :)")
+                    t2.setText("통상적으로 3년 안에 초기투자자본 비용만큼의 수익을 얻는다면,\n\n이는 성공한 사업으로 볼 수 있습니다.")
 
                     if(Result.getresult3()==0){ //sns 점수 0인 경우
                         t4.setText("내 매장을 홍보할 수 있는 SNS를 개설해보세요!")

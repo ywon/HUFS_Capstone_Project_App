@@ -8,10 +8,13 @@
     tools:context=".TrendTest2Activity">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/butter"
-        android:textSize="30dp">
+        android:background="@drawable/edge_butter_white"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:text="Trend Analysis Test"
+        android:textSize="20dp">
     </TextView>
 
     <LinearLayout
@@ -26,11 +29,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/butter"
             android:layout_marginBottom="30dp"
-            android:text="2. 월 평균 매출과 초기투자자본 금액을 \n 적어주세요."
+            android:text="2. 월 평균 매출과 초기투자자본\n금액을 적어주세요."
             android:textAlignment="center"
-            android:textSize="20dp">
+            android:textColor="@color/black"
+            android:textSize="18dp">
         </TextView>
 
         <EditText
@@ -52,8 +55,8 @@
 
         <Button
             android:id="@+id/next_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
             android:text="NEXT"
             android:background="@drawable/join_button">
         </Button>

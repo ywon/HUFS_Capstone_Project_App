@@ -10,7 +10,7 @@
         android:layout_height="50dp"
         android:gravity="center"
         android:background="@drawable/edge_bottom_lightgrey"
-        android:text="트렌드점수분석"
+        android:text="트렌드 점수 분석 테스트"
         android:textSize="25dp">
     </TextView>
 
@@ -18,9 +18,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="내 매장 트렌드 점수 알아보기"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="280dp"
         android:textAlignment="center"
-        android:textSize="30dp">
+        android:textSize="25dp">
     </TextView>
 
     <Button
@@ -29,7 +29,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Start"
-        android:background="@drawable/join_button"
-        android:layout_marginTop="10dp">
+        android:background="@drawable/join_button">
     </Button>
 </FrameLayout>

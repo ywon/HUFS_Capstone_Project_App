@@ -6,17 +6,28 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
-
-    <TextView
-        android:id="@+id/homeText"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:gravity="center"
         android:background="@drawable/edge_bottom_lightgrey"
-        android:text="Trend Analysis"
-        android:textSize="25dp">
-    </TextView>
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOT  "
+            android:textSize="14dp"
+            android:textColor="#E36F6F"
+            android:textStyle="italic"/>
+        <TextView
+            android:id="@+id/homeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Trend"
+            android:textSize="25dp">
+        </TextView>
+    </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -30,21 +41,28 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="25dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="10dp"
-                    android:text="관심 업종: 카페"
+                    android:layout_marginLeft="15dp"
+                    android:text="관심 업종: "
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="카페"
                     android:textSize="20dp"
                     android:textStyle="bold" />
 
                 <Button
-                    android:layout_width="90dp"
-                    android:layout_height="30dp"
+                    android:layout_width="80dp"
+                    android:layout_height="25dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="170dp"
                     android:background="@drawable/join_button"
@@ -57,88 +75,210 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginHorizontal="10dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/edge_blackdefault"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edge_black_round"
                 android:orientation="vertical">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="5dp"
-                    android:gravity="center_vertical"
-                    android:text="1. 크로플" />
-
-                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:textSize="18dp"
+                        android:text="1."/>
+                    <TextView
+                        android:id="@+id/top1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="18dp"/>
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="5dp"
-                    android:gravity="center_vertical"
-                    android:text="2. 크로플" />
-
-                <TextView
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:textSize="17dp"
+                        android:text="2."/>
+                    <TextView
+                        android:id="@+id/top2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="17dp"/>
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="5dp"
-                    android:gravity="center_vertical"
-                    android:text="3. 크로플" />
-
-                <TextView
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:textSize="16dp"
+                        android:text="3."/>
+                    <TextView
+                        android:id="@+id/top3"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="5dp"
-                    android:gravity="center_vertical"
-                    android:text="4. 크로플" />
-
-                <TextView
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15dp"
+                        android:text="4."/>
+                    <TextView
+                        android:id="@+id/top4"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15dp"/>
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="5dp"
-                    android:gravity="center_vertical"
-                    android:text="5. 크로플" />
-
-                <TextView
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15dp"
+                        android:text="5."/>
+                    <TextView
+                        android:id="@+id/top5"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15dp"/>
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="5dp"
-                    android:gravity="center_vertical"
-                    android:text="6. 크로플" />
-
-                <TextView
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15dp"
+                        android:text="6."/>
+                    <TextView
+                        android:id="@+id/top6"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15dp"/>
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="5dp"
-                    android:gravity="center_vertical"
-                    android:text="7. 크로플" />
-
-                <TextView
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15dp"
+                        android:text="7."/>
+                    <TextView
+                        android:id="@+id/top7"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15dp"/>
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="5dp"
-                    android:gravity="center_vertical"
-                    android:text="8. 크로플" />
-
-                <TextView
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15dp"
+                        android:text="8."/>
+                    <TextView
+                        android:id="@+id/top8"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15dp"/>
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="5dp"
-                    android:gravity="center_vertical"
-                    android:text="9. 크로플" />
-
-                <TextView
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15dp"
+                        android:text="9."/>
+                    <TextView
+                        android:id="@+id/top9"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15dp"/>
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="5dp"
-                    android:gravity="center_vertical"
-                    android:text="10. 크로플" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15dp"
+                        android:text="10."/>
+                    <TextView
+                        android:id="@+id/top10"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15dp"/>
+                </LinearLayout>
             </LinearLayout>
-
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:text="트렌드 점수가 높은 다른 기업 확인"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="트렌드 점수 TOP 3 매장"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -148,21 +288,23 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginTop="10dp"
-                android:background="@drawable/edge_blackdefault"
+                android:background="@drawable/edge_black_round"
                 android:orientation="horizontal">
                 <TextView
                     android:id="@+id/num1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/edge_blackdefault">
-                </TextView>
+                    android:gravity="center"
+                    android:background="@drawable/edge_black_leftround">
+                    </TextView>
 
                 <TextView
                     android:id="@+id/num2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:background="@drawable/edge_blackdefault">
                 </TextView>
 
@@ -171,11 +313,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/edge_blackdefault">
+                    android:gravity="center"
+                    android:background="@drawable/edge_black_rightround">
                 </TextView>
             </LinearLayout>
 
-            <LinearLayout
+            <!--LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_gravity="center_horizontal"
@@ -229,11 +372,12 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/edge_blackdefault"></LinearLayout>
-            </LinearLayout>
+            </LinearLayout-->
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="60dp" />
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

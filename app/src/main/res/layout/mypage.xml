@@ -91,12 +91,14 @@
                 android:layout_gravity="center"
                 android:background="@drawable/edge_blackdefault"
                 android:gravity="left|center_vertical"
-                android:text=" 내 정보"></Button>
+                android:paddingLeft="10dp"
+                android:text="내 정보"></Button>
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
+
             <Button
                 android:id="@+id/storeinfo"
                 android:layout_width="match_parent"
@@ -104,13 +106,14 @@
                 android:layout_gravity="center"
                 android:background="@drawable/edge_blackdefault"
                 android:gravity="left|center_vertical"
-                android:text=" 내 매장 정보">
-            </Button>
+                android:paddingLeft="10dp"
+                android:text="내 매장 정보"></Button>
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
+
             <Button
                 android:id="@+id/noticeButton"
                 android:layout_width="match_parent"
@@ -118,13 +121,14 @@
                 android:layout_gravity="center"
                 android:background="@drawable/edge_blackdefault"
                 android:gravity="left|center_vertical"
-                android:text="  공지사항">
-            </Button>
+                android:paddingLeft="10dp"
+                android:text="공지사항"></Button>
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
+
             <Button
                 android:id="@+id/settingButton"
                 android:layout_width="match_parent"
@@ -132,8 +136,8 @@
                 android:layout_gravity="center"
                 android:background="@drawable/edge_blackdefault"
                 android:gravity="left|center_vertical"
-                android:text="  환경 설정">
-            </Button>
+                android:paddingLeft="10dp"
+                android:text="환경 설정"></Button>
         </RelativeLayout>
         <TextView
             android:layout_width="match_parent"
@@ -141,7 +145,8 @@
             android:layout_weight="1"
             android:background="@drawable/edge_blackdefault"
             android:gravity="left|center_vertical"
-            android:text="  보류">
+            android:paddingLeft="10dp"
+            android:text="보류">
         </TextView>
 
 
@@ -151,20 +156,33 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="140dp"
         android:layout_gravity="bottom">
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="현재 버전: 1.0.0"
             android:layout_gravity="center_horizontal"
-            android:textColor="@color/lightgrey"
-            android:textSize="10dp"/>
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="현재 버전: "
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/lightgrey"
+                android:textSize="10dp"/>
+            <TextView
+                android:id="@+id/versionname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/lightgrey"
+                android:textSize="10dp"/>
+        </LinearLayout>
 
         <Button
             android:id="@+id/logout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:text="LOGOUT"
             android:textSize="10dp"
             android:layout_gravity="center"/>

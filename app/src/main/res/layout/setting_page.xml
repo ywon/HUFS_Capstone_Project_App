@@ -9,100 +9,101 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <Button
+        <!--Button
             android:id="@+id/back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="뒤로가기">
-        </Button>
+        </Button-->
 
         <TextView
-            android:id="@+id/mypage_myInfo_Text"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:background="@drawable/edge_bottom_lightgrey"
-            android:gravity="center"
-            android:text="환경 설정"
-            android:textSize="25dp"></TextView>
+            android:layout_height="40dp"
+            android:gravity="bottom|center_horizontal"
+            android:text="환경설정"
+            android:textSize="20dp"></TextView>
     </RelativeLayout>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edge_bottom_lightgrey"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
-        android:layout_marginVertical="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
         android:layout_marginHorizontal="10dp">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="알림"
+            android:text="PUSH 알림"
             android:layout_gravity="center_vertical"
-            android:textSize="20dp"
             android:layout_marginLeft="10dp"/>
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="290dp">
+            android:layout_marginLeft="180dp">
         </Switch>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
-        android:layout_marginVertical="10dp"
+        android:layout_marginVertical="5dp"
         android:layout_marginHorizontal="10dp">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="알림"
             android:layout_gravity="center_vertical"
-            android:textSize="20dp"
             android:layout_marginLeft="10dp"/>
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="290dp">
+            android:layout_marginLeft="180dp">
         </Switch>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
-        android:layout_marginVertical="10dp"
+        android:layout_marginVertical="5dp"
         android:layout_marginHorizontal="10dp">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="알림"
             android:layout_gravity="center_vertical"
-            android:textSize="20dp"
             android:layout_marginLeft="10dp"/>
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="290dp">
+            android:layout_marginLeft="180dp">
         </Switch>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
-        android:layout_marginVertical="10dp"
+        android:layout_marginVertical="5dp"
         android:layout_marginHorizontal="10dp">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="알림"
             android:layout_gravity="center_vertical"
-            android:textSize="20dp"
             android:layout_marginLeft="10dp"/>
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="290dp">
+            android:layout_marginLeft="180dp">
         </Switch>
     </LinearLayout>
 </LinearLayout>

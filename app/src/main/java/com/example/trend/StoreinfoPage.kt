@@ -23,9 +23,9 @@ class StoreinfoPage : AppCompatActivity() {
         //주석처리
         infoVolley(this, url, Result.getid())
 
-        back.setOnClickListener(){
+        /*back.setOnClickListener(){
             startActivity(Intent(this, MainActivity::class.java))
-        }
+        }*/
 
         change.setOnClickListener(){
             startActivity(Intent(this, ChangeStoreinfo::class.java))

@@ -8,12 +8,14 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/butter"
-        android:textSize="30dp">
+        android:background="@drawable/edge_butter_white"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:text="Trend Analysis Test"
+        android:textSize="20dp">
     </TextView>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,11 +28,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/butter"
-            android:layout_marginBottom="30dp"
-            android:text="5. 포털사이트의 리뷰 평점을 적어주세요. \n (카카오, 망고플레이트 등)"
+            android:layout_marginBottom="50dp"
+            android:text="5. 포털사이트의 리뷰 평점을 적어주세요. \n (카카오, 네이버 플레이스, 망고플레이트 등)"
             android:textAlignment="center"
-            android:textSize="20dp">
+            android:textColor="@color/black"
+            android:textSize="18dp">
         </TextView>
 
         <EditText
@@ -43,9 +45,9 @@
 
         <Button
             android:id="@+id/next_5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Finish"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="FINISH"
             android:background="@drawable/join_button">
         </Button>
 

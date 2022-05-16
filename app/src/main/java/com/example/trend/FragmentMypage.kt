@@ -52,8 +52,11 @@ class FragmentMypage :  Fragment(R.layout.mypage) {
         trend_result = view.findViewById(R.id.trend_result)
         username = view.findViewById(R.id.username)
         email_mypage = view.findViewById(R.id.email_mypage)
+        var versionName = BuildConfig.VERSION_NAME
 
         trendVolley(requireContext(), url, Result.getid(), Result.gettotalresult())
+
+        versionname.setText(versionName)
 
         logout.setOnClickListener(){
             val intentStart = Intent(context, StartPage::class.java)

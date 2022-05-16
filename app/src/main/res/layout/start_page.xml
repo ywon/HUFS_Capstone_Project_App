@@ -15,9 +15,9 @@
         android:id="@+id/maintext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="소상공인을 위한 앱"
-        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:text="But'trend"
+        android:textSize="50dp"
         android:textStyle="bold">
     </TextView>
 
@@ -62,9 +62,7 @@
             android:layout_toRightOf="@+id/already"
             android:text="LOGIN"
             android:textSize="15dp"
-            android:textStyle="bold">
-
-        </TextView>
+            android:textStyle="bold"></TextView>
 
     </RelativeLayout>
 

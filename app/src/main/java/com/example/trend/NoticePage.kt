@@ -10,8 +10,8 @@ class NoticePage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.notice_page)
 
-        back.setOnClickListener(){
+        /*back.setOnClickListener(){
             startActivity(Intent(this, MainActivity::class.java))
-        }
+        }*/
     }
 }

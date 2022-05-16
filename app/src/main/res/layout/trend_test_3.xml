@@ -8,10 +8,13 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/butter"
-        android:textSize="30dp">
+        android:background="@drawable/edge_butter_white"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:text="Trend Analysis Test"
+        android:textSize="20dp">
     </TextView>
 
     <LinearLayout
@@ -26,10 +29,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/butter"
-            android:layout_marginBottom="40dp"
+            android:layout_marginBottom="30dp"
             android:text="3. 월 평균 매출의 변화 양상은 어떤가요?"
-            android:textSize="20dp">
+            android:textColor="@color/black"
+            android:textSize="18dp">
         </TextView>
 
         <TextView
@@ -37,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/edge_butter"
+            android:background="@drawable/edge_grey_round"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
@@ -51,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/edge_butter"
+            android:background="@drawable/edge_grey_round"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
@@ -65,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:background="@drawable/edge_butter"
+            android:background="@drawable/edge_grey_round"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"

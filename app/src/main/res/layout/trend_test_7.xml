@@ -8,10 +8,13 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/butter"
-        android:textSize="30dp">
+        android:background="@drawable/edge_butter_white"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:text="Trend Analysis Test"
+        android:textSize="20dp">
     </TextView>
 
     <LinearLayout
@@ -27,12 +30,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/edge_butter"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="나의 트렌드 분석 점수는"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="20dp">
         </TextView>
@@ -42,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
-            android:background="@drawable/edge_butter"
+            android:background="@drawable/edge_butter_white"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
@@ -55,6 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="25dp"
+            android:layout_marginTop="30dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
@@ -62,7 +66,7 @@
             android:textAlignment="center"
             android:text="홈으로 돌아가기"
             android:textStyle="bold"
-            android:textSize="15dp">
+            android:textSize="10dp">
         </TextView>
 
 
