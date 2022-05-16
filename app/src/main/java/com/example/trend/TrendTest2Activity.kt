@@ -14,7 +14,7 @@ class TrendTest2Activity : AppCompatActivity() {
             val average : String = edit_average.text.toString()
             val initial : String = edit_initial.text.toString()
             val thisyear : Int = 2022
-            val temp : Float = initial.toFloat()/average.toFloat()
+            val temp : Float = average.toFloat()/initial.toFloat()
 
             if(thisyear-Result.getperiod().toInt()>3){
                 if(temp<0.02){
