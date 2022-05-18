@@ -53,18 +53,19 @@
                     android:textSize="20dp"
                     android:textStyle="bold" />
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:id="@+id/category_select"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:text="카페"
                     android:textSize="20dp"
                     android:textStyle="bold" />
 
                 <Button
+                    android:id="@+id/category"
                     android:layout_width="80dp"
-                    android:layout_height="25dp"
+                    android:layout_height="19dp"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="170dp"
+                    android:layout_marginLeft="50dp"
                     android:background="@drawable/join_button"
                     android:text="다른 업종 선택"
                     android:textSize="10dp" />
