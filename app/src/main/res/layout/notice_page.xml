@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".InfoPage">
+    android:background="@color/white">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -21,6 +21,7 @@
             android:layout_height="40dp"
             android:gravity="bottom|center_horizontal"
             android:text="공지사항"
+            android:textColor="@color/black"
             android:textSize="20dp"></TextView>
     </RelativeLayout>
     <TextView
@@ -33,7 +34,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="30dp"
+        android:background="@drawable/edge_grey_round"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
         android:layout_marginHorizontal="15dp">
         <LinearLayout
             android:layout_width="match_parent"
@@ -43,48 +46,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="공지"
+                android:textSize="14dp"
                 android:textStyle="bold"
                 android:textColor="@color/brown"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
+                android:textSize="14dp"
                 android:text="2022.05.20"/>
         </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16dp"
+            android:textSize="14dp"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
             android:text="[공지] But'trend 앱 런칭 안내"/>
-        <TextView
-            android:layout_width="400dp"
-            android:layout_height="10dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/lightgrey_line"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="공지"
-                android:textStyle="bold"
-                android:textColor="@color/brown"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="2022.05.20"/>
-        </LinearLayout>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="16dp"
-            android:layout_marginTop="8dp"
-            android:text="[공지] But'trend 앱 런칭 안내"/>
+
     </LinearLayout>
 </LinearLayout>

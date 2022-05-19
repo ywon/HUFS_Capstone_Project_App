@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login2">
+    tools:context=".Login2"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,14 +13,29 @@
         android:gravity="center"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="160dp"
         android:orientation="vertical">
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:layout_marginBottom="70dp"
+            android:textStyle="bold"
+            android:textSize="22dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* 회원 정보 입력"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="80dp"
+            android:textSize="15dp"/>
         <EditText
             android:id="@+id/edit_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="15"
+            android:textSize="15dp"
             android:hint="아이디"
             android:inputType="textPersonName" />
 
@@ -28,7 +44,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
-            android:ems="10"
+            android:ems="15"
+            android:textSize="15dp"
             android:hint="비밀번호"
             android:inputType="textPassword" />
 
@@ -37,7 +54,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
-            android:ems="10"
+            android:ems="15"
+            android:textSize="15dp"
             android:hint="비밀번호 확인"
             android:inputType="textPassword" />
 
@@ -46,7 +64,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
-            android:ems="10"
+            android:ems="15"
+            android:textSize="15dp"
             android:hint="이메일 주소"
             android:inputType="textPersonName"/>
 
@@ -56,7 +75,7 @@
             android:gravity="center"
             android:layout_marginRight="30dp"
             android:layout_marginLeft="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="40dp"
             android:orientation="horizontal">
 
             <Button
@@ -64,7 +83,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="가입하기"
-                android:backgroundTint="#F1DD95" />
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/butter" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

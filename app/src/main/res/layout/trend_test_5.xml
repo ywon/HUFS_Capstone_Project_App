@@ -5,14 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TrendTest5Activity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/edge_butter_white"
-        android:paddingHorizontal="10dp"
-        android:paddingVertical="5dp"
+        android:background="@drawable/edge_bottom_lightgrey"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingHorizontal="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
         android:text="Trend Analysis Test"
         android:textSize="20dp">
     </TextView>
@@ -29,8 +34,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:text="4-1. 홍보용 SNS의 팔로워수를 선택해주세요"
+            android:layout_marginBottom="50dp"
+            android:text="4-1. 홍보용 SNS의 팔로워수를 선택해주세요."
             android:textColor="@color/black"
             android:textSize="18dp">
         </TextView>
@@ -46,7 +51,7 @@
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="100명 미만"
-            android:textSize="20dp">
+            android:textSize="14dp">
         </TextView>
 
         <TextView
@@ -60,7 +65,7 @@
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="100명 이상 1000명 미만"
-            android:textSize="20dp">
+            android:textSize="14dp">
         </TextView>
 
         <TextView
@@ -74,7 +79,7 @@
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="1000명 이상 5000명 미만"
-            android:textSize="20dp">
+            android:textSize="14dp">
         </TextView>
 
         <TextView
@@ -88,7 +93,7 @@
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="5000명 이상"
-            android:textSize="20dp">
+            android:textSize="14dp">
         </TextView>
     </LinearLayout>
 </LinearLayout>

@@ -5,14 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TrendTest3Activity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/edge_butter_white"
-        android:paddingHorizontal="10dp"
-        android:paddingVertical="5dp"
+        android:background="@drawable/edge_bottom_lightgrey"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingHorizontal="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
         android:text="Trend Analysis Test"
         android:textSize="20dp">
     </TextView>
@@ -29,7 +34,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="50dp"
             android:text="3. 월 평균 매출의 변화 양상은 어떤가요?"
             android:textColor="@color/black"
             android:textSize="18dp">
@@ -46,7 +51,7 @@
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="상승세를 보인다"
-            android:textSize="20dp">
+            android:textSize="14dp">
         </TextView>
 
         <TextView
@@ -60,7 +65,7 @@
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="변화가 거의 없다"
-            android:textSize="20dp">
+            android:textSize="14dp">
         </TextView>
 
         <TextView
@@ -74,7 +79,7 @@
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="하락세를 보인다"
-            android:textSize="20dp">
+            android:textSize="14dp">
         </TextView>
 
     </LinearLayout>

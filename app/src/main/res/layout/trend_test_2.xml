@@ -5,14 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".TrendTest2Activity">
+    tools:context=".TrendTest2Activity"
+    android:background="@color/white">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/edge_butter_white"
-        android:paddingHorizontal="10dp"
-        android:paddingVertical="5dp"
+        android:background="@drawable/edge_bottom_lightgrey"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingHorizontal="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
         android:text="Trend Analysis Test"
         android:textSize="20dp">
     </TextView>
@@ -29,7 +34,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="50dp"
             android:text="2. 월 평균 매출과 초기투자자본\n금액을 적어주세요."
             android:textAlignment="center"
             android:textColor="@color/black"
@@ -41,7 +46,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:ems="10"
+            android:ems="15"
+            android:textSize="15dp"
             android:hint="월 평균 매출" />
 
         <EditText
@@ -49,16 +55,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
-            android:ems="10"
+            android:ems="15"
+            android:textSize="15dp"
             android:hint="초기투자자본" />
 
 
         <Button
             android:id="@+id/next_2"
-            android:layout_width="80dp"
-            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="NEXT"
-            android:background="@drawable/join_button">
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="12dp"
+            android:backgroundTint="@color/butter">
         </Button>
 
     </LinearLayout>

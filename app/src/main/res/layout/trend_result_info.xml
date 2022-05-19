@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TrendResultInfo"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -23,6 +24,7 @@
             android:layout_height="40dp"
             android:gravity="bottom|center_horizontal"
             android:text="내 매장 트렌드 분석 점수"
+            android:textColor="@color/black"
             android:textSize="20dp"></TextView>
     </RelativeLayout>
     <TextView
@@ -35,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="60dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -43,7 +45,8 @@
             android:text="총점"
             android:layout_gravity="center"
             android:layout_marginBottom="10dp"
-            android:textSize="30dp">
+            android:textColor="@color/black"
+            android:textSize="18dp">
         </TextView>
 
         <TextView
@@ -64,6 +67,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
             android:text="1. 내 매장의 성공률">
         </TextView>
         <ProgressBar
@@ -83,6 +88,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
             android:text="2. 내 매장의 매출 변화율">
         </TextView>
         <ProgressBar
@@ -91,6 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
+            android:textSize="14dp"
             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
             android:max="20"
             android:progress="0"
@@ -102,6 +109,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
             android:text="3. SNS 사용률">
         </TextView>
         <ProgressBar
@@ -110,6 +118,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
+            android:textSize="14dp"
             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
             android:max="20"
             android:progress="0"
@@ -121,6 +130,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
             android:text="4. 고객 만족도">
         </TextView>
         <ProgressBar
@@ -129,6 +139,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
+            android:textSize="14dp"
             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
             android:max="20"
             android:progress="0"

@@ -5,14 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TrendTest6Activity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/edge_butter_white"
-        android:paddingHorizontal="10dp"
-        android:paddingVertical="5dp"
+        android:background="@drawable/edge_bottom_lightgrey"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingHorizontal="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
         android:text="Trend Analysis Test"
         android:textSize="20dp">
     </TextView>
@@ -28,27 +33,36 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="5dp"
             android:text="5. 포털사이트의 리뷰 평점을 적어주세요. \n (카카오, 네이버 플레이스, 망고플레이트 등)"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="18dp">
         </TextView>
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            android:textSize="11dp"
+            android:text="* 여러 사이트의 평균 평점을 입력하면 더욱 정확합니다."/>
         <EditText
             android:id="@+id/edit_review"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
-            android:ems="10"
+            android:layout_marginBottom="50dp"
+            android:ems="15"
+            android:textSize="15dp"
             android:hint="리뷰 평점" />
 
         <Button
             android:id="@+id/next_5"
-            android:layout_width="80dp"
-            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="FINISH"
-            android:background="@drawable/join_button">
+            android:textSize="12dp"
+            android:backgroundTint="@color/butter">
         </Button>
 
     </LinearLayout>

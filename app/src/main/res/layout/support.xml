@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SmallBusiness">
+    tools:context=".SmallBusiness"
+    android:background="@color/white">
     <TextView
         android:id="@+id/supportText"
         android:layout_width="match_parent"
@@ -13,7 +14,8 @@
         android:gravity="center"
         android:background="@drawable/edge_bottom_lightgrey"
         android:text="교육/지원"
-        android:textSize="25dp">
+        android:textColor="@color/black"
+        android:textSize="20dp">
     </TextView>
     <TextView
         android:layout_width="wrap_content"
@@ -22,6 +24,7 @@
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:layout_gravity="center"
+        android:textColor="@color/black"
         android:text="소상공인진흥공단(www.semas.or.kr)에서는\n소상공인을 위해 각종 교육 및 자금을 지원합니다.\n클릭하면 해당 사이트로 이동합니다.">
     </TextView>
     <TextView
@@ -48,11 +51,11 @@
                     android:id="@+id/first"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/join_button"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginVertical="5dp"
+                    android:background="@drawable/edge_butter_white"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
                     android:text="소상공인\n정책자금 사이트"></Button>
             </RelativeLayout>
             <RelativeLayout
@@ -64,7 +67,7 @@
                     android:id="@+id/second"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/join_button"
+                    android:background="@drawable/edge_butter_white"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:layout_marginHorizontal="5dp"
@@ -80,11 +83,11 @@
                     android:id="@+id/third"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/join_button"
-                    android:paddingLeft="12dp"
-                    android:paddingRight="12dp"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginVertical="5dp"
+                    android:background="@drawable/edge_butter_white"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
                     android:text="사회적 경제기업 전용자금 안내"></Button>
             </RelativeLayout>
         </LinearLayout>
@@ -103,7 +106,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginVertical="5dp"
-                    android:background="@drawable/join_button"
+                    android:background="@drawable/edge_grey_round"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:text="성장촉진자금\n안내"></Button>
@@ -117,7 +120,7 @@
                     android:id="@+id/fifth"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/join_button"
+                    android:background="@drawable/edge_grey_round"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:layout_marginHorizontal="5dp"
@@ -135,7 +138,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginVertical="5dp"
-                    android:background="@drawable/join_button"
+                    android:background="@drawable/edge_grey_round"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:text="혁신형 소상공인\n자금"></Button>
@@ -154,7 +157,7 @@
                     android:id="@+id/seventh"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/join_button"
+                    android:background="@drawable/edge_blackdefault"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:layout_marginHorizontal="5dp"
@@ -170,7 +173,7 @@
                     android:id="@+id/eighth"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/join_button"
+                    android:background="@drawable/edge_blackdefault"
                     android:paddingLeft="12dp"
                     android:paddingRight="12dp"
                     android:layout_marginHorizontal="5dp"
@@ -186,7 +189,7 @@
                     android:id="@+id/ninth"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/join_button"
+                    android:background="@drawable/edge_blackdefault"
                     android:paddingLeft="25dp"
                     android:paddingRight="25dp"
                     android:layout_marginHorizontal="5dp"

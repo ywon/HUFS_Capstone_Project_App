@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/communityText"
@@ -11,24 +13,37 @@
         android:gravity="center"
         android:background="@drawable/edge_bottom_lightgrey"
         android:text="트렌드 점수 분석 테스트"
-        android:textSize="25dp">
+        android:textColor="@color/black"
+        android:textSize="20dp">
     </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="220dp"
+        android:textSize="11dp"
+        android:textColor="@color/black"
+        android:text="간단한 테스트를 통해 내 매장의 트렌드 점수를 알아보아요!"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="내 매장 트렌드 점수 알아보기"
-        android:layout_marginTop="280dp"
         android:textAlignment="center"
-        android:textSize="25dp">
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="23dp">
     </TextView>
+
 
     <Button
         android:id="@+id/test_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Start"
-        android:background="@drawable/join_button">
-    </Button>
-</FrameLayout>
+        android:layout_marginTop="60dp"
+        android:background="@drawable/join_button"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:text="Start"></Button>
+</LinearLayout>

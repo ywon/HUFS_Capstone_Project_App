@@ -5,14 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TrendTest4Activity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/edge_butter_white"
-        android:paddingHorizontal="10dp"
-        android:paddingVertical="5dp"
+        android:background="@drawable/edge_bottom_lightgrey"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingHorizontal="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
         android:text="Trend Analysis Test"
         android:textSize="20dp">
     </TextView>
@@ -46,7 +51,7 @@
             android:id="@+id/yes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="50dp"
             android:layout_marginBottom="25dp"
             android:background="@drawable/edge_grey_round"
             android:paddingLeft="10dp"
@@ -54,7 +59,7 @@
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="있습니다"
-            android:textSize="20dp">
+            android:textSize="14dp">
         </TextView>
 
         <TextView
@@ -68,7 +73,7 @@
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="없습니다"
-            android:textSize="20dp">
+            android:textSize="14dp">
         </TextView>
     </LinearLayout>
 

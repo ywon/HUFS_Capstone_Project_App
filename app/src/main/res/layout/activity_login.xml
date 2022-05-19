@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".Login"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,14 +13,22 @@
         android:gravity="center"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="270dp"
+        android:layout_marginTop="210dp"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:text="로그인"
+            android:textSize="22dp"
+            android:textStyle="bold" />
         <EditText
             android:id="@+id/edit_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="15"
+            android:textSize="15dp"
             android:hint="아이디"
             android:inputType="textPersonName" />
 
@@ -27,7 +36,8 @@
             android:id="@+id/edit_pw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="15"
+            android:textSize="15dp"
             android:hint="비밀번호"
             android:inputType="textPassword" />
 
@@ -37,7 +47,7 @@
             android:gravity="center"
             android:layout_marginRight="30dp"
             android:layout_marginLeft="30dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="51dp"
             android:orientation="horizontal">
 
             <Button
@@ -46,7 +56,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
                 android:text="로그인"
-                android:backgroundTint="#F1DD95"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/butter"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/edit_pw" />
 
@@ -55,7 +67,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="회원가입"
-                android:backgroundTint="#F1DD95"
+                android:textSize="12dp"
+                android:backgroundTint="@color/butter"
+                android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/edit_pw" />
 

@@ -38,6 +38,5 @@
         app:itemTextColor="@color/grey"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/bottom_navigation" />
-    <!--        app:itemIconTint="#FFFFFF" -->
 
 </RelativeLayout>

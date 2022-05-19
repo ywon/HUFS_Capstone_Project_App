@@ -5,17 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TrendTest7Activity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/edge_butter_white"
-        android:paddingHorizontal="10dp"
-        android:paddingVertical="5dp"
-        android:text="Trend Analysis Test"
-        android:textSize="20dp">
-    </TextView>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,7 +29,7 @@
             android:text="나의 트렌드 분석 점수는"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:textSize="20dp">
+            android:textSize="18dp">
         </TextView>
 
         <TextView
@@ -65,6 +57,7 @@
             android:paddingTop="10dp"
             android:textAlignment="center"
             android:text="홈으로 돌아가기"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="10dp">
         </TextView>

@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/mypageText"
@@ -12,7 +13,8 @@
         android:gravity="center"
         android:background="@drawable/edge_bottom_lightgrey"
         android:text="마이페이지"
-        android:textSize="25dp"></TextView>
+        android:textColor="@color/black"
+        android:textSize="20dp"></TextView>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -53,6 +55,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="트렌드 점수"
+                android:textColor="@color/black"
                 android:layout_gravity="center_horizontal"
                 />
             <TextView
@@ -75,7 +78,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="200dp"
         android:orientation="vertical"
         android:layout_marginTop="20dp"
         android:layout_marginHorizontal="20dp">
@@ -139,15 +142,6 @@
                 android:paddingLeft="10dp"
                 android:text="환경 설정"></Button>
         </RelativeLayout>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/edge_blackdefault"
-            android:gravity="left|center_vertical"
-            android:paddingLeft="10dp"
-            android:text="보류">
-        </TextView>
 
 
     </LinearLayout>
@@ -156,7 +150,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="160dp"
         android:layout_gravity="bottom">
         <LinearLayout
             android:layout_width="wrap_content"
@@ -181,10 +175,10 @@
 
         <Button
             android:id="@+id/logout"
-            android:layout_width="70dp"
-            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="LOGOUT"
-            android:textSize="10dp"
+            android:textSize="12dp"
             android:layout_gravity="center"/>
     </LinearLayout>
 </LinearLayout>
