@@ -59,6 +59,7 @@
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="있습니다"
+            android:textColor="@color/black"
             android:textSize="14dp">
         </TextView>
 
@@ -73,6 +74,7 @@
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="없습니다"
+            android:textColor="@color/black"
             android:textSize="14dp">
         </TextView>
     </LinearLayout>

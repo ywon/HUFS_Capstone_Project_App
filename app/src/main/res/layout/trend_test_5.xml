@@ -50,6 +50,7 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
+            android:textColor="@color/black"
             android:text="100명 미만"
             android:textSize="14dp">
         </TextView>
@@ -64,6 +65,7 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
+            android:textColor="@color/black"
             android:text="100명 이상 1000명 미만"
             android:textSize="14dp">
         </TextView>
@@ -78,6 +80,7 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
+            android:textColor="@color/black"
             android:text="1000명 이상 5000명 미만"
             android:textSize="14dp">
         </TextView>
@@ -92,6 +95,7 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
+            android:textColor="@color/black"
             android:text="5000명 이상"
             android:textSize="14dp">
         </TextView>

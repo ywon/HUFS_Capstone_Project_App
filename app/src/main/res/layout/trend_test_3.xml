@@ -51,6 +51,7 @@
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="상승세를 보인다"
+            android:textColor="@color/black"
             android:textSize="14dp">
         </TextView>
 
@@ -65,6 +66,7 @@
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="변화가 거의 없다"
+            android:textColor="@color/black"
             android:textSize="14dp">
         </TextView>
 
@@ -79,6 +81,7 @@
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="하락세를 보인다"
+            android:textColor="@color/black"
             android:textSize="14dp">
         </TextView>
 

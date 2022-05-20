@@ -53,7 +53,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginVertical="5dp"
-                    android:background="@drawable/edge_butter_white"
+                    android:background="@drawable/edge_butter_round"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:text="소상공인\n정책자금 사이트"></Button>
@@ -67,11 +67,11 @@
                     android:id="@+id/second"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/edge_butter_white"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginVertical="5dp"
+                    android:background="@drawable/edge_butter_round"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
                     android:text="소상공인\n특화자금 안내"></Button>
             </RelativeLayout>
             <RelativeLayout
@@ -85,7 +85,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginVertical="5dp"
-                    android:background="@drawable/edge_butter_white"
+                    android:background="@drawable/edge_butter_round"
                     android:paddingLeft="12dp"
                     android:paddingRight="12dp"
                     android:text="사회적 경제기업 전용자금 안내"></Button>
@@ -106,7 +106,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginVertical="5dp"
-                    android:background="@drawable/edge_grey_round"
+                    android:background="@drawable/edge_butter_round"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:text="성장촉진자금\n안내"></Button>
@@ -120,7 +120,7 @@
                     android:id="@+id/fifth"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/edge_grey_round"
+                    android:background="@drawable/edge_butter_round"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:layout_marginHorizontal="5dp"
@@ -138,7 +138,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginVertical="5dp"
-                    android:background="@drawable/edge_grey_round"
+                    android:background="@drawable/edge_butter_round"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:text="혁신형 소상공인\n자금"></Button>
@@ -157,11 +157,11 @@
                     android:id="@+id/seventh"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/edge_blackdefault"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginVertical="5dp"
+                    android:background="@drawable/edge_butter_round"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
                     android:text="도시정비\n사업구역 자금"></Button>
             </RelativeLayout>
             <RelativeLayout
@@ -173,7 +173,7 @@
                     android:id="@+id/eighth"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/edge_blackdefault"
+                    android:background="@drawable/edge_butter_round"
                     android:paddingLeft="12dp"
                     android:paddingRight="12dp"
                     android:layout_marginHorizontal="5dp"
@@ -189,11 +189,11 @@
                     android:id="@+id/ninth"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/edge_blackdefault"
-                    android:paddingLeft="25dp"
-                    android:paddingRight="25dp"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginVertical="5dp"
+                    android:background="@drawable/edge_butter_round"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
                     android:text="스마트설비 도입 자금"></Button>
             </RelativeLayout>
         </LinearLayout>
