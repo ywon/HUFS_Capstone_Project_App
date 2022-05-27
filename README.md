@@ -1,2 +1,3 @@
 # HUFS_Capstone_Project_App
-app
+Android application for small business entrepreneurs
+
